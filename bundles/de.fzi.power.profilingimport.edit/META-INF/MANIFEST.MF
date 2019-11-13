@@ -7,7 +7,7 @@ Bundle-ClassPath: .
 Bundle-Activator: de.fzi.power.profilingimport.mapping.provider.MetrictocsvmappingEditPlugin$Implementation
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: de.fzi.power.profilingimport.mapping.provider
 Require-Bundle: org.eclipse.core.runtime,
  de.fzi.power.profilingimport;visibility:=reexport,
