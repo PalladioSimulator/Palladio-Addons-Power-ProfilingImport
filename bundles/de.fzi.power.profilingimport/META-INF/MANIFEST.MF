@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
 Bundle-SymbolicName: de.fzi.power.profilingimport;singleton:=true
-Bundle-Version: 5.2.2
+Bundle-Version: 6.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
@@ -16,12 +16,12 @@ Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.cdo;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;visibility:=reexport,
  de.uka.ipd.sdq.identifier;visibility:=reexport,
- org.palladiosimulator.metricspec;bundle-version="1.0.2";visibility:=reexport,
+ org.palladiosimulator.metricspec;visibility:=reexport,
  org.palladiosimulator.edp2;visibility:=reexport,
  org.apache.commons.csv;bundle-version="1.4.0",
  com.google.guava;bundle-version="15.0.0",
  org.palladiosimulator.edp2.util,
  org.palladiosimulator.measurementframework,
  org.eclipse.ui.workbench,
- org.palladiosimulator.pcm.edp2.measuringpoint;bundle-version="1.0.0"
+ org.palladiosimulator.pcm.edp2.measuringpoint
 Bundle-ActivationPolicy: lazy
